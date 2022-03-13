@@ -19,10 +19,10 @@ import { DbzService } from './services/dbz.service';
     MainPageComponent,
     PersonajesComponent,
     AgregarComponent,
-   
+
 
   ],
-  exports:[
+  exports: [
     MainPageComponent,
   ],
 
@@ -30,11 +30,11 @@ import { DbzService } from './services/dbz.service';
     CommonModule,
     FormsModule,
   ],
-  providers:[
+  providers: [
     DbzService,
   ],
 
 })
-export class DbzModule { 
-  
+export class DbzModule {
+
 }
